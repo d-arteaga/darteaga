@@ -1,0 +1,17 @@
+.hobby-text {
+    font-size: 1.1rem; /* Default size */
+  }
+  
+  /* Decrease font size for mobile devices */
+  @media (max-width: 768px) {
+    .hobby-text {
+      font-size: 0.9rem; /* Adjust size as needed */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hobby-text {
+      font-size: 0.8rem; /* Even smaller for very small screens */
+    }
+  }
+  

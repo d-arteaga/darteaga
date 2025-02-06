@@ -1,6 +1,22 @@
-* {
+.tagline {
+    font-weight: 370;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
+    align-items: "center";
+    padding: 30px;
+    font-size: 2rem;
+  }
+  
+  /* Decrease font size for mobile devices */
+  @media (max-width: 768px) {
+    .tagline {
+      font-size: 1.55rem; /* Adjust size as needed */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .tagline {
+      font-size: 1.3rem; /* Even smaller for very small screens */
+    }
+  }
+  

@@ -4,12 +4,14 @@ import drums from "../assets/drumming.jpg";
 import music from "../assets/spotify.png";
 import nature from "../assets/nature.jpg";
 import tyler from "../assets/tyler_drum.png";
+import namm from "../assets/namm.png";
 import ImageGallery from "react-image-gallery";
 import Stack from "react-bootstrap/Stack";
 import Header from "../Header";
 import Container from "react-bootstrap/Container";
 import Footer from "../Footer";
 import "react-image-gallery/styles/css/image-gallery.css";
+import "./Home.css";
 
 export default function Home() {
   const myRef = document.querySelector(".scrollable-div");
@@ -59,6 +61,13 @@ export default function Home() {
       thumbnailHeight: "60px",
       thumbnailWidth: "90px",
     },
+    {
+      original: namm,
+      thumbnail: namm,
+      //description: "Jazz Performance",
+      thumbnailHeight: "60px",
+      thumbnailWidth: "80px",
+    },
   ];
 
   return (
@@ -79,16 +88,7 @@ export default function Home() {
           />
         </div>
         <Container>
-          <h3
-            style={{
-              fontWeight: "370",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "30px",
-              fontSize: "2rem",
-            }}
-          >
+          <h3 className="tagline">
             Developer &nbsp;&nbsp;|&nbsp;&nbsp; Musician
             &nbsp;&nbsp;|&nbsp;&nbsp; Creator
           </h3>

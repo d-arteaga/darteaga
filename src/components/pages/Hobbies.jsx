@@ -14,6 +14,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "react-image-gallery/styles/css/image-gallery.css";
+import "./Hobbies.css";
 
 export default function Hobbies() {
   const myRef = document.querySelector(".scrollable-div");
@@ -26,6 +27,13 @@ export default function Hobbies() {
     backgroundColor: "black", // Fills any empty space if using "contain"
   };
   const images = [
+    {
+      original: namm,
+      thumbnail: namm,
+      //description: "Spotify Clone",
+      originalHeight: "300px",
+      thumbnailHeight: "55px",
+    },
     {
       original: drums,
       thumbnail: drums,
@@ -50,13 +58,6 @@ export default function Hobbies() {
       thumbnailHeight: "55px",
     },
 
-    {
-      original: namm,
-      thumbnail: namm,
-      //description: "Spotify Clone",
-      originalHeight: "300px",
-      thumbnailHeight: "55px",
-    },
     {
       original: guitar,
       thumbnail: guitar,
@@ -88,7 +89,7 @@ export default function Hobbies() {
         <Container fluid="lg">
           <Row lg={2}>
             <Col>
-              <p style={{ fontSize: "1.1rem" }}>
+              <p className="hobby-text">
                 <strong>Music has always been a huge part of my life.</strong>
                 <br></br>I play drums, guitar, bass, and a variety of percussion
                 instruments, and I spent several years working as a studio
@@ -144,7 +145,7 @@ export default function Hobbies() {
           <Row lg={2}>
             <Col>
               <div className="p-2">
-                <p style={{ fontSize: "1.1rem" }}>
+                <p className="hobby-text">
                   In addition to my work as a musician, I have several years of
                   experience as a video editor and content analyst, combining
                   creativity with data-driven decision-making. I specialize in
@@ -166,7 +167,14 @@ export default function Hobbies() {
               </div>
             </Col>
             <Col>
-              <div className="p-2">
+              <div
+                className="p-2"
+                style={{
+                  display: "flex",
+                  flexWrap: "wrap",
+                  overflow: "hidden",
+                }}
+              >
                 <img
                   src={adobe}
                   width="575px"
@@ -194,7 +202,7 @@ export default function Hobbies() {
           <Row lg={2}>
             <Col>
               <div className="p-2">
-                <p style={{ fontSize: "1.1rem" }}>
+                <p className="hobby-text">
                   Outside of music and video editing, I enjoy staying active and
                   exploring the outdoors. Whether it’s hiking through National
                   Parks like Yosemite and Sequoia, relaxing at the beach, or
@@ -213,7 +221,14 @@ export default function Hobbies() {
               </div>
             </Col>
             <Col>
-              <div className="p-2">
+              <div
+                className="p-2"
+                style={{
+                  display: "flex",
+                  flexWrap: "wrap",
+                  overflow: "hidden",
+                }}
+              >
                 <img
                   src={nature}
                   width="480px"
