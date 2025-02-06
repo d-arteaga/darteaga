@@ -16,7 +16,7 @@ export default function Header() {
             <Nav.Link as={Link} to="/" className="mx-1">
               Home
             </Nav.Link>
-            <Nav.Link href="/Projects" className="mx-1">
+            <Nav.Link as={Link} to="/Projects" className="mx-1">
               Projects
             </Nav.Link>
             <Nav.Link as={Link} to="/Resume" className="mx-1">

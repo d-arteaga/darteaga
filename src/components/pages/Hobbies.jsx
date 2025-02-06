@@ -140,37 +140,42 @@ export default function Hobbies() {
             s
           />
         </div>
-        <Container>
-          <Stack direction="horizontal" gap={2}>
-            <div className="p-2">
-              <p style={{ fontSize: "1.1rem" }}>
-                In addition to my work as a musician, I have several years of
-                experience as a video editor and content analyst, combining
-                creativity with data-driven decision-making. I specialize in
-                video and audio workflows, utilizing Ableton&nbsp;Live,
-                Adobe&nbsp;Premiere&nbsp;Pro, Adobe After&nbsp;Effects, and
-                Photopea to produce high-quality content across various
-                platforms.
-                <br></br>I personally oversee and manage two separate content
-                businesses, handling everything from editing and post-production
-                to branding and audience engagement strategies. Beyond editing,
-                I take a data-driven approach to content performance, analyzing
-                various metrics from my channel and video data using Python to
-                optimize audience retention, engagement, and growth. <br />
-                By leveraging data analytics, I refine content strategies,
-                improve video pacing, and enhance storytelling to maximize
-                impact.{" "}
-              </p>
-            </div>
-            <div className="p-2">
-              <img
-                src={adobe}
-                width="450px"
-                height="310px"
-                style={{ borderRadius: "7px" }}
-              />
-            </div>
-          </Stack>
+        <Container fluid="lg">
+          <Row lg={2}>
+            <Col>
+              <div className="p-2">
+                <p style={{ fontSize: "1.1rem" }}>
+                  In addition to my work as a musician, I have several years of
+                  experience as a video editor and content analyst, combining
+                  creativity with data-driven decision-making. I specialize in
+                  video and audio workflows, utilizing Ableton&nbsp;Live,
+                  Adobe&nbsp;Premiere&nbsp;Pro, Adobe After&nbsp;Effects, and
+                  Photopea to produce high-quality content across various
+                  platforms.
+                  <br></br>I personally oversee and manage two separate content
+                  businesses, handling everything from editing and
+                  post-production to branding and audience engagement
+                  strategies. Beyond editing, I take a data-driven approach to
+                  content performance, analyzing various metrics from my channel
+                  and video data using Python to optimize audience retention,
+                  engagement, and growth. <br />
+                  By leveraging data analytics, I refine content strategies,
+                  improve video pacing, and enhance storytelling to maximize
+                  impact.{" "}
+                </p>
+              </div>
+            </Col>
+            <Col>
+              <div className="p-2">
+                <img
+                  src={adobe}
+                  width="575px"
+                  height="350px"
+                  style={{ borderRadius: "7px" }}
+                />
+              </div>
+            </Col>
+          </Row>
         </Container>
         <div style={{ padding: "55px" }}>
           <TypeWriterEffect
@@ -185,35 +190,39 @@ export default function Hobbies() {
             s
           />
         </div>
-        <Container>
-          <Stack direction="horizontal" gap={2}>
-            <div className="p-2">
-              <p style={{ fontSize: "1.1rem" }}>
-                Outside of music and video editing, I enjoy staying active and
-                exploring the outdoors. Whether it’s hiking through National
-                Parks like Yosemite and Sequoia, relaxing at the beach, or
-                discovering new trails, I love experiencing nature whenever I
-                can. I’m also passionate about fitness and working out, seeing
-                it as both a challenge and a way to stay balanced and healthy.{" "}
-                <br></br>
-                Another fun fact about me—I speak three languages: English,
-                Spanish, and Japanese! Learning new languages has given me a
-                deeper appreciation for different cultures and perspectives, and
-                I enjoy finding new ways to connect with people through language
-                and shared experiences.
-                <br />I believe in continuous learning and pushing creative
-                boundaries, whether in music, technology, or personal growth.
-              </p>
-            </div>
-            <div className="p-2">
-              <img
-                src={nature}
-                width="425px"
-                height="310px"
-                style={{ borderRadius: "7px" }}
-              />
-            </div>
-          </Stack>
+        <Container fluid="lg">
+          <Row lg={2}>
+            <Col>
+              <div className="p-2">
+                <p style={{ fontSize: "1.1rem" }}>
+                  Outside of music and video editing, I enjoy staying active and
+                  exploring the outdoors. Whether it’s hiking through National
+                  Parks like Yosemite and Sequoia, relaxing at the beach, or
+                  discovering new trails, I love experiencing nature whenever I
+                  can. I’m also passionate about fitness and working out, seeing
+                  it as both a challenge and a way to stay balanced and healthy.{" "}
+                  <br></br>
+                  Another fun fact about me—I speak three languages: English,
+                  Spanish, and Japanese! Learning new languages has given me a
+                  deeper appreciation for different cultures and perspectives,
+                  and I enjoy finding new ways to connect with people through
+                  language and shared experiences.
+                  <br />I believe in continuous learning and pushing creative
+                  boundaries, whether in music, technology, or personal growth.
+                </p>
+              </div>
+            </Col>
+            <Col>
+              <div className="p-2">
+                <img
+                  src={nature}
+                  width="480px"
+                  height="340px"
+                  style={{ borderRadius: "7px" }}
+                />
+              </div>
+            </Col>
+          </Row>
         </Container>
       </Stack>
       <Footer />

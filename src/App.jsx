@@ -4,7 +4,7 @@ import Hobbies from "./components/pages/Hobbies.jsx";
 import Home from "./components/pages/Home.jsx";
 import Resume from "./components/pages/Resume.jsx";
 import Projects from "./components/pages/Projects.jsx";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 //import "./index.css";
 
