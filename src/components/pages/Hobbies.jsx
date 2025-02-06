@@ -4,8 +4,9 @@ import drums from "../assets/drumming.jpg";
 import music from "../assets/drumset.jpg";
 import cover from "../assets/drum_ss.jpg";
 import nature from "../assets/nature.jpg";
+import namm from "../assets/namm.png";
 import Footer from "../Footer";
-import Carousel from "react-bootstrap/Carousel";
+import adobe from "../assets/adobe.jpg";
 import ImageGallery from "react-image-gallery";
 import Stack from "react-bootstrap/Stack";
 import Header from "../Header";
@@ -31,25 +32,37 @@ export default function Hobbies() {
       originalTitle: "Kirby",
       //description: "AI Recipe Recommendation App",
       originalHeight: "300px",
+      thumbnailHeight: "55px",
+      //thumbnailWidth: "90px;",
     },
     {
       original: cover,
       thumbnail: cover,
-      description: "Jazz Performance",
+      // description: "Jazz Performance",
       originalHeight: "300px",
+      thumbnailHeight: "55px",
     },
     {
       original: music,
       thumbnail: music,
-      description: "Drum simulator",
+      //description: "Drum simulator",
       originalHeight: "300px",
+      thumbnailHeight: "55px",
     },
 
     {
+      original: namm,
+      thumbnail: namm,
+      //description: "Spotify Clone",
+      originalHeight: "300px",
+      thumbnailHeight: "55px",
+    },
+    {
       original: guitar,
       thumbnail: guitar,
-      description: "Spotify Clone",
+      //description: "Spotify Clone",
       originalHeight: "300px",
+      thumbnailHeight: "55px",
     },
   ];
 
@@ -86,12 +99,19 @@ export default function Hobbies() {
                 for <b>Tower&nbsp;of&nbsp;Power</b>. I was also the studio
                 drummer of the jazz ensemble The&nbsp;Jazz&nbsp;Lawyers,
                 contributing to the writing and recording of their debut album,{" "}
-                <i>Identity&nbsp;Theft</i>, which is available for streaming on
-                Spotify and Apple Music.
-                <br></br>
-                Now, I play drums in my spare time and enjoy recording and
-                mixing covers to share online. Music continues to be a creative
-                outlet for me, blending performance with production.
+                <i>Identity&nbsp;Theft</i>, which is available for streaming on{" "}
+                <a href="https://open.spotify.com/album/2Js0jE3E7Myam7T9Ocqrd6?si=4i8nkZbrQyyP8o--n5RcdQ">
+                  Spotify
+                </a>{" "}
+                and{" "}
+                <a href="https://music.apple.com/us/album/identity-fraud/1727888226">
+                  Apple Music
+                </a>
+                .<br></br>
+                Now, I play drums and guitar in my spare time and enjoy
+                recording and mixing covers and creating tutorials to share
+                online. Music continues to be a creative outlet for me, blending
+                performance with production.
               </p>
             </Col>
             <Col>
@@ -127,22 +147,28 @@ export default function Hobbies() {
                 In addition to my work as a musician, I have several years of
                 experience as a video editor and content analyst, combining
                 creativity with data-driven decision-making. I specialize in
-                video and audio workflows, utilizing Ableton&nbsp;Live, Adobe
-                Premiere&nbsp;Pro, Adobe After&nbsp;Effects, and Photopea to
-                produce high-quality content across various platforms.
+                video and audio workflows, utilizing Ableton&nbsp;Live,
+                Adobe&nbsp;Premiere&nbsp;Pro, Adobe After&nbsp;Effects, and
+                Photopea to produce high-quality content across various
+                platforms.
                 <br></br>I personally oversee and manage two separate content
                 businesses, handling everything from editing and post-production
                 to branding and audience engagement strategies. Beyond editing,
                 I take a data-driven approach to content performance, analyzing
-                various metrics from my channel and video data using{" "}
-                <b>Python</b> to optimize audience retention, engagement, and
-                growth. By leveraging data analytics, I refine content
-                strategies, improve video pacing, and enhance storytelling to
-                maximize impact.{" "}
+                various metrics from my channel and video data using Python to
+                optimize audience retention, engagement, and growth. <br />
+                By leveraging data analytics, I refine content strategies,
+                improve video pacing, and enhance storytelling to maximize
+                impact.{" "}
               </p>
             </div>
             <div className="p-2">
-              <img src={music} width="450px" height="300px" />
+              <img
+                src={adobe}
+                width="450px"
+                height="310px"
+                style={{ borderRadius: "7px" }}
+              />
             </div>
           </Stack>
         </Container>
@@ -168,16 +194,24 @@ export default function Hobbies() {
                 Parks like Yosemite and Sequoia, relaxing at the beach, or
                 discovering new trails, I love experiencing nature whenever I
                 can. I’m also passionate about fitness and working out, seeing
-                it as both a challenge and a way to stay balanced. <br></br>
+                it as both a challenge and a way to stay balanced and healthy.{" "}
+                <br></br>
                 Another fun fact about me—I speak three languages: English,
-                Spanish, and Japanese. Learning new languages has given me a
+                Spanish, and Japanese! Learning new languages has given me a
                 deeper appreciation for different cultures and perspectives, and
-                I enjoy finding ways to connect with people through language and
-                shared experiences.
+                I enjoy finding new ways to connect with people through language
+                and shared experiences.
+                <br />I believe in continuous learning and pushing creative
+                boundaries, whether in music, technology, or personal growth.
               </p>
             </div>
             <div className="p-2">
-              <img src={music} width="450px" height="300px" />
+              <img
+                src={nature}
+                width="425px"
+                height="310px"
+                style={{ borderRadius: "7px" }}
+              />
             </div>
           </Stack>
         </Container>

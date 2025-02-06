@@ -141,7 +141,12 @@ export default function Projects() {
                   This website was developed with React, Bootstrap, and Vite.js!
                   See the code below.
                 </Card.Text>
-                <Button variant="primary">&lt;/&gt; React</Button>
+                <Button
+                  variant="primary"
+                  href="https://github.com/diego-arteaga0/darteaga"
+                >
+                  &lt;/&gt; React
+                </Button>
               </Card.Body>
             </Card>
           </Col>

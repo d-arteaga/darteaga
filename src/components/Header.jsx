@@ -13,14 +13,16 @@ export default function Header() {
             darteaga
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/Home">
+            <Nav.Link as={Link} to="/Home" className="mx-1">
               Home
             </Nav.Link>
-            <Nav.Link href="/Projects">Projects</Nav.Link>
-            <Nav.Link as={Link} to="/Resume">
+            <Nav.Link href="/Projects" className="mx-1">
+              Projects
+            </Nav.Link>
+            <Nav.Link as={Link} to="/Resume" className="mx-1">
               Resume
             </Nav.Link>
-            <Nav.Link as={Link} to="/Hobbies">
+            <Nav.Link as={Link} to="/Hobbies" className="mx-1">
               Beyond Code
             </Nav.Link>
           </Nav>
