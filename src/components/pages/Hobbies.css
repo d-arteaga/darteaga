@@ -11,7 +11,7 @@
   
   @media (max-width: 480px) {
     .hobby-text {
-      font-size: 0.8rem; /* Even smaller for very small screens */
+      font-size: 0.95rem; /* Even smaller for very small screens */
     }
   }
   

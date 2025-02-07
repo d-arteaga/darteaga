@@ -10,7 +10,7 @@
   /* Decrease font size for mobile devices */
   @media (max-width: 768px) {
     .tagline {
-      font-size: 1.45rem; /* Adjust size as needed */
+      font-size: 1.4rem; /* Adjust size as needed */
     }
   }
   
