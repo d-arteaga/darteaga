@@ -5,7 +5,7 @@
   /* Decrease font size for mobile devices */
   @media (max-width: 768px) {
     .hobby-text {
-      font-size: 0.9rem; /* Adjust size as needed */
+      font-size: 1rem; /* Adjust size as needed */
     }
   }
   

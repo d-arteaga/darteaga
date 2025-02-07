@@ -78,7 +78,7 @@ export default function Home() {
         <div style={{ paddingTop: "60px" }}>
           <TypeWriterEffect
             textStyle={{
-              fontSize: "5.8em",
+              fontSize: "5.7em",
               textAlign: "center",
             }}
             startDelay={100}

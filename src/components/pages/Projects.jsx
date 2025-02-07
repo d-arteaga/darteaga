@@ -20,9 +20,9 @@ export default function Projects() {
       <br />
       <br />
       <Container fluid="lg">
-        <Row>
+        <Row lg={3} xs={2}>
           <Col>
-            <Card style={{ width: "22rem" }}>
+            <Card>
               <Card.Img variant="top" src={chef} />
 
               <Card.Body>
@@ -46,7 +46,7 @@ export default function Projects() {
           </Col>
 
           <Col md={4}>
-            <Card style={{ width: "22rem" }}>
+            <Card>
               <Card.Img variant="top" src={spotify} />
               <Card.Body>
                 <Card.Title>
@@ -67,8 +67,8 @@ export default function Projects() {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={4}>
-            <Card style={{ width: "22rem" }}>
+          <Col>
+            <Card>
               <Card.Img variant="top" src={tyler} />
               <Card.Body>
                 <Card.Title>Drum Kit Web Simulator</Card.Title>
@@ -89,9 +89,9 @@ export default function Projects() {
           </Col>
         </Row>
         <br></br>
-        <Row>
+        <Row lg={3} xs={2}>
           <Col md={4}>
-            <Card style={{ width: "22rem" }}>
+            <Card>
               <Card.Img variant="top" src={covid} />
               <Card.Body>
                 <Card.Title>COVID-19 Trend Analysis Tool</Card.Title>
@@ -111,7 +111,7 @@ export default function Projects() {
           </Col>
 
           <Col md={4}>
-            <Card style={{ width: "22rem" }}>
+            <Card>
               <Card.Img variant="top" src={assembly} />
               <Card.Body>
                 <Card.Title>
@@ -125,7 +125,7 @@ export default function Projects() {
                 </Card.Text>
                 <Button
                   variant="primary"
-                  href="https://diego-arteaga0.github.io/assembly-endgame/"
+                  href="https://d-arteaga.github.io/assembly-endgame/"
                 >
                   Play here!
                 </Button>
@@ -133,7 +133,7 @@ export default function Projects() {
             </Card>
           </Col>
           <Col md={4}>
-            <Card style={{ width: "22rem" }}>
+            <Card>
               <Card.Img variant="top" src={port} />
               <Card.Body>
                 <Card.Title>Portfolio Website</Card.Title>

@@ -110,9 +110,9 @@ export default function Hobbies() {
                 </a>
                 .<br></br>
                 Now, I play drums and guitar in my spare time and enjoy
-                recording and mixing covers and creating tutorials to share
-                online. Music continues to be a creative outlet for me, blending
-                performance with production.
+                recording and mixing covers and tutorials to share online. Music
+                continues to be a creative outlet for me, blending performance
+                with production.
               </p>
             </Col>
             <Col>
@@ -142,44 +142,35 @@ export default function Hobbies() {
           />
         </div>
         <Container fluid="lg">
-          <Row lg={2}>
+          <Row lg={2} xs={1}>
             <Col>
-              <div className="p-2">
-                <p className="hobby-text">
-                  In addition to my work as a musician, I have several years of
-                  experience as a video editor and content analyst, combining
-                  creativity with data-driven decision-making. I specialize in
-                  video and audio workflows, utilizing Ableton&nbsp;Live,
-                  Adobe&nbsp;Premiere&nbsp;Pro, Adobe After&nbsp;Effects, and
-                  Photopea to produce high-quality content across various
-                  platforms.
-                  <br></br>I personally oversee and manage two separate content
-                  businesses, handling everything from editing and
-                  post-production to branding and audience engagement
-                  strategies. Beyond editing, I take a data-driven approach to
-                  content performance, analyzing various metrics from my channel
-                  and video data using Python to optimize audience retention,
-                  engagement, and growth. <br />
-                  By leveraging data analytics, I refine content strategies,
-                  improve video pacing, and enhance storytelling to maximize
-                  impact.{" "}
-                </p>
-              </div>
+              <p className="hobby-text">
+                In addition to my work as a musician, I have several years of
+                experience as a video editor and content analyst, blending
+                creativity with data-driven decision-making. I specialize in
+                video and audio workflows, utilizing Ableton&nbsp;Live,
+                Adobe&nbsp;Premiere&nbsp;Pro, Adobe&nbsp;After&nbsp;Effects, and
+                Photopea to produce high-quality content.
+                <br /> I personally oversee and manage two separate content
+                businesses, handling everything from editing and post-production
+                to branding and audience engagement strategies. Beyond editing,
+                I take a data-driven approach to content performance, analyzing
+                various metrics from my channel and video data using Python to
+                optimize audience retention, engagement, and growth. By
+                leveraging data analytics, I refine content strategies, improve
+                video pacing, and enhance storytelling to maximize impact.{" "}
+              </p>
             </Col>
             <Col>
-              <div
-                className="p-2"
-                style={{
-                  display: "flex",
-                  flexWrap: "wrap",
-                  overflow: "hidden",
-                }}
-              >
+              <div>
                 <img
                   src={adobe}
-                  width="575px"
-                  height="350px"
-                  style={{ borderRadius: "7px" }}
+                  style={{
+                    borderRadius: "7px",
+                    maxWidth: "100%",
+                    width: "575px",
+                    height: "auto",
+                  }}
                 />
               </div>
             </Col>
@@ -199,17 +190,17 @@ export default function Hobbies() {
           />
         </div>
         <Container fluid="lg">
-          <Row lg={2}>
+          <Row lg={2} xs={1}>
             <Col>
               <div className="p-2">
                 <p className="hobby-text">
                   Outside of music and video editing, I enjoy staying active and
                   exploring the outdoors. Whether it’s hiking through National
-                  Parks like Yosemite and Sequoia, relaxing at the beach, or
-                  discovering new trails, I love experiencing nature whenever I
-                  can. I’m also passionate about fitness and working out, seeing
-                  it as both a challenge and a way to stay balanced and healthy.{" "}
-                  <br></br>
+                  Parks like <i>Yosemite</i> and <i>Sequoia</i>, relaxing at the
+                  beach, or discovering new botanical gardens, I love immersing
+                  myself in nature whenever I can. I’m also passionate about
+                  fitness and working out, seeing it as both a challenge and a
+                  way to stay balanced and healthy. <br></br>
                   Another fun fact about me—I speak three languages: English,
                   Spanish, and Japanese! Learning new languages has given me a
                   deeper appreciation for different cultures and perspectives,
@@ -217,6 +208,7 @@ export default function Hobbies() {
                   language and shared experiences.
                   <br />I believe in continuous learning and pushing creative
                   boundaries, whether in music, technology, or personal growth.
+                  <br />
                 </p>
               </div>
             </Col>
@@ -231,9 +223,12 @@ export default function Hobbies() {
               >
                 <img
                   src={nature}
-                  width="480px"
-                  height="340px"
-                  style={{ borderRadius: "7px" }}
+                  style={{
+                    borderRadius: "7px",
+                    width: "480px",
+                    maxWidth: "100%",
+                    height: "auto",
+                  }}
                 />
               </div>
             </Col>
