@@ -11,6 +11,7 @@ import covid from "../assets/covid.png";
 import assembly from "../assets/endgame.png";
 import port from "../assets/portfolio.png";
 import Footer from "../Footer";
+import meme from "../assets/meme.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Projects() {
@@ -98,7 +99,7 @@ export default function Projects() {
                 <Card.Text>
                   A Python-based data analysis tool designed with Pandas,
                   Matplotlib, and scikit-learn to track and visualize COVID-19
-                  trends.
+                  trends. Helped me learn various Python libraries.
                 </Card.Text>
                 <Button
                   variant="primary"
@@ -118,10 +119,10 @@ export default function Projects() {
                   <em>Assembly: Endgame</em>
                 </Card.Title>
                 <Card.Text>
-                  Interactive game developed with React. Objective is to guess
-                  the word by clicking the on-screen keyboard to prevent the
-                  world from losing all programming languages and being left
-                  with Assembly.
+                  Developed a Hangman game using React to master key React
+                  concepts and enhance my skills with hands-on experience. This
+                  project allowed me to gain practical knowledge in building
+                  interactive applications.
                 </Card.Text>
                 <Button
                   variant="primary"
