@@ -70,6 +70,49 @@ export default function Projects() {
           </Col>
           <Col>
             <Card>
+              <Card.Img variant="top" src={covid} />
+              <Card.Body>
+                <Card.Title>COVID-19 Trend Analysis Tool</Card.Title>
+                <Card.Text>
+                  This project enhanced my skills in data manipulation and
+                  visualization, as well as machine learning. It helped me gain
+                  a deeper understanding of Python libraries and their
+                  applications in real-world data analysis.
+                </Card.Text>
+                <Button
+                  variant="primary"
+                  href="https://github.com/diego-arteaga0/trend-analysis-tool"
+                >
+                  &lt;/&gt; Python
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+        <br></br>
+        <Row lg={3} xs={2}>
+          <Col md={4}>
+            <Card>
+              <Card.Img variant="top" src={port} />
+              <Card.Body>
+                <Card.Title>Personal Portfolio Website</Card.Title>
+                <Card.Text>
+                  This React project provided hands-on experience with the
+                  deployment process, managing a custom domain, and ensuring
+                  secure HTTPS connections.
+                </Card.Text>
+                <Button
+                  variant="primary"
+                  href="https://github.com/diego-arteaga0/darteaga"
+                >
+                  &lt;/&gt; React
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col md={4}>
+            <Card>
               <Card.Img variant="top" src={tyler} />
               <Card.Body>
                 <Card.Title>Drum Kit Web Simulator</Card.Title>
@@ -88,29 +131,6 @@ export default function Projects() {
               </Card.Body>
             </Card>
           </Col>
-        </Row>
-        <br></br>
-        <Row lg={3} xs={2}>
-          <Col md={4}>
-            <Card>
-              <Card.Img variant="top" src={covid} />
-              <Card.Body>
-                <Card.Title>COVID-19 Trend Analysis Tool</Card.Title>
-                <Card.Text>
-                  A Python-based data analysis tool designed with Pandas,
-                  Matplotlib, and scikit-learn to track and visualize COVID-19
-                  trends. Helped me learn various Python libraries.
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  href="https://github.com/diego-arteaga0/trend-analysis-tool"
-                >
-                  &lt;/&gt; Python
-                </Button>
-              </Card.Body>
-            </Card>
-          </Col>
-
           <Col md={4}>
             <Card>
               <Card.Img variant="top" src={assembly} />
@@ -129,24 +149,6 @@ export default function Projects() {
                   href="https://d-arteaga.github.io/assembly-endgame/"
                 >
                   Play here!
-                </Button>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={4}>
-            <Card>
-              <Card.Img variant="top" src={port} />
-              <Card.Body>
-                <Card.Title>Portfolio Website</Card.Title>
-                <Card.Text>
-                  This website was developed with React, Bootstrap, and Vite.js!
-                  See the code below.
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  href="https://github.com/diego-arteaga0/darteaga"
-                >
-                  &lt;/&gt; React
                 </Button>
               </Card.Body>
             </Card>

@@ -155,10 +155,10 @@ export default function Hobbies() {
                 businesses, handling everything from editing and post-production
                 to branding and audience engagement strategies. Beyond editing,
                 I take a data-driven approach to content performance, analyzing
-                various metrics from my channel and video data using Python to
-                optimize audience retention, engagement, and growth. By
-                leveraging data analytics, I refine content strategies, improve
-                video pacing, and enhance storytelling to maximize impact.{" "}
+                various metrics using Python to optimize audience retention,
+                engagement, and growth. By leveraging data analytics, I refine
+                content strategies, improve video pacing, and enhance
+                storytelling to maximize impact.{" "}
               </p>
             </Col>
             <Col>
