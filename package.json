@@ -2,7 +2,7 @@
   "name": "darteaga",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://darteaga.me/",
+  "homepage": "https://darteaga.me/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
