@@ -1,4 +1,4 @@
-import pdf from "../assets/Diego Arteaga_Resume_2.5.25.pdf";
+import pdf from "../assets/Diego Arteaga_Resume_2.8.25.pdf";
 import Header from "../Header";
 import Footer from "../Footer";
 

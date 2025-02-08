@@ -94,13 +94,14 @@ export default function Hobbies() {
                 <br></br>I play drums, guitar, bass, and a variety of percussion
                 instruments, and I spent several years working as a studio
                 musician. During that time, I performed everywhere from local
-                clubs in Ventura, CA; the Pasadena Civic Center in Pasadena, CA;
-                on a boat for a parade in Oxnard, CA; and even had the unique
-                experience of performing at NAMM 2020 in Anaheim, CA, opening
-                for <b>Tower&nbsp;of&nbsp;Power</b>. I was also the studio
-                drummer of the jazz ensemble The&nbsp;Jazz&nbsp;Lawyers,
-                contributing to the writing and recording of their debut album,{" "}
-                <i>Identity&nbsp;Theft</i>, which is available for streaming on{" "}
+                clubs in Ventura and the Pasadena Civic Center to a boat parade
+                in Oxnard. I even had the unique experience of performing at
+                NAMM 2020 in Anaheim, CA, opening for{" "}
+                <b>Tower&nbsp;of&nbsp;Power</b>. I was also the studio drummer
+                of the jazz ensemble The&nbsp;Jazz&nbsp;Lawyers, contributing to
+                the writing and recording of their debut album,{" "}
+                <i>Identity&nbsp;Theft</i>, which is currently available for
+                streaming on{" "}
                 <a href="https://open.spotify.com/album/2Js0jE3E7Myam7T9Ocqrd6?si=4i8nkZbrQyyP8o--n5RcdQ">
                   Spotify
                 </a>{" "}
@@ -113,6 +114,8 @@ export default function Hobbies() {
                 recording and mixing covers and tutorials to share online. Music
                 continues to be a creative outlet for me, blending performance
                 with production.
+                {/* // During that time, I performed everywhere from local clubs in 
+                // Ventura and the Pasadena Civic Center to a boat parade in Oxnard. */}
               </p>
             </Col>
             <Col>
