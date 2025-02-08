@@ -1,5 +1,3 @@
-"homepage";
-"https://d-arteaga.github.io/darteaga";
 import Hobbies from "./components/pages/Hobbies.jsx";
 import Home from "./components/pages/Home.jsx";
 import Resume from "./components/pages/Resume.jsx";
