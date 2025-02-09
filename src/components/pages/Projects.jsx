@@ -6,7 +6,7 @@ import chef from "../assets/chef_app.png";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import tyler from "../assets/drum_sim.png";
-import spotify from "../assets/spoof.png";
+import spotify from "../assets/ongaku.png";
 import covid from "../assets/covid.png";
 import assembly from "../assets/endgame.png";
 import port from "../assets/portfolio.png";
@@ -23,6 +23,51 @@ export default function Projects() {
       <Container fluid="lg">
         <Row lg={3} xs={2}>
           <Col>
+            <Card>
+              <Card.Img variant="top" src={spotify} />
+              <Card.Body>
+                <Card.Title>
+                  <i>ONGAKU</i> - Spotify Clone
+                </Card.Title>
+                <Card.Text>
+                  Redesigned a personal project originally built with PHP and
+                  JavaScript, utilizing React and Bootstrap for a modern,
+                  responsive UI. Developed a scalable backend with Node.js,
+                  Express.js, and MySQL, optimizing data management and API
+                  efficiency.
+                </Card.Text>
+                <Button
+                  variant="primary"
+                  href="https://github.com/d-arteaga/fake--spotify"
+                >
+                  &lt;/&gt; React
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col md={4}>
+            <Card>
+              <Card.Img variant="top" src={covid} />
+              <Card.Body>
+                <Card.Title>COVID-19 Trend Analysis Tool</Card.Title>
+                <Card.Text>
+                  This project enhanced my skills in data manipulation and
+                  visualization, as well as machine learning. It helped me gain
+                  a deeper understanding of various Python libraries and their
+                  applications in real-world data analysis.
+                </Card.Text>
+                <Button
+                  variant="primary"
+                  href="https://github.com/diego-arteaga0/trend-analysis-tool"
+                >
+                  &lt;/&gt; Python
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            {" "}
             <Card>
               <Card.Img variant="top" src={chef} />
 
@@ -41,49 +86,6 @@ export default function Projects() {
                   href="https://github.com/diego-arteaga0/chef-kirby"
                 >
                   &lt;/&gt; React
-                </Button>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          <Col md={4}>
-            <Card>
-              <Card.Img variant="top" src={spotify} />
-              <Card.Body>
-                <Card.Title>
-                  <i>Spoofify</i> - Spotify Clone
-                </Card.Title>
-                <Card.Text>
-                  A music streaming platform clone built with MySQL database for
-                  managing songs, artists, and albums. Features a dynamic
-                  real-time search bar, music rankings, and the ability to save
-                  "Liked Songs."
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  href="https://github.com/diego-arteaga0/Fake-Spotify"
-                >
-                  &lt;/&gt; JavaScript
-                </Button>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col>
-            <Card>
-              <Card.Img variant="top" src={covid} />
-              <Card.Body>
-                <Card.Title>COVID-19 Trend Analysis Tool</Card.Title>
-                <Card.Text>
-                  This project enhanced my skills in data manipulation and
-                  visualization, as well as machine learning. It helped me gain
-                  a deeper understanding of Python libraries and their
-                  applications in real-world data analysis.
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  href="https://github.com/diego-arteaga0/trend-analysis-tool"
-                >
-                  &lt;/&gt; Python
                 </Button>
               </Card.Body>
             </Card>

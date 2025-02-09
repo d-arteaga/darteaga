@@ -73,10 +73,10 @@ export default function Hobbies() {
       <br />
       <br />
       <Stack gap={2}>
-        <div style={{ padding: "35px" }}>
+        <div style={{ padding: "33px" }}>
           <TypeWriterEffect
             textStyle={{
-              fontSize: "2.5em",
+              fontSize: "2.4em",
               textAlign: "center",
             }}
             startDelay={100}
@@ -131,10 +131,10 @@ export default function Hobbies() {
 
         <br></br>
 
-        <div style={{ padding: "35px" }}>
+        <div style={{ padding: "33px" }}>
           <TypeWriterEffect
             textStyle={{
-              fontSize: "2.5em",
+              fontSize: "2.4em",
               textAlign: "center", // Ensures the text is centered properly
             }}
             startDelay={100}
@@ -179,10 +179,10 @@ export default function Hobbies() {
             </Col>
           </Row>
         </Container>
-        <div style={{ padding: "55px" }}>
+        <div style={{ padding: "40px" }}>
           <TypeWriterEffect
             textStyle={{
-              fontSize: "2.5em",
+              fontSize: "2.4em",
               textAlign: "center", // Ensures the text is centered properly
             }}
             startDelay={100}
