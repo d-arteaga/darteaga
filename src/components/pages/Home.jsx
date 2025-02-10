@@ -40,13 +40,14 @@ export default function Home() {
       thumbnailWidth: "80px",
     },
     {
-      original: tyler,
-      thumbnail: tyler,
-      description: "Drum Set Web Simulator",
-      originalTitle: "Drum Set Web Simulator",
+      original: music,
+      thumbnail: music,
+      description: "Spotify Clone",
+      originalTitle: "Spotify Clone",
       thumbnailHeight: "60px",
-      thumbnailWidth: "120px",
+      thumbnailWidth: "90px",
     },
+
     {
       original: nature,
       thumbnail: nature,
@@ -57,12 +58,12 @@ export default function Home() {
       thumbnailWidth: "80px",
     },
     {
-      original: music,
-      thumbnail: music,
-      description: "Spotify Clone",
-      originalTitle: "Spotify Clone",
+      original: tyler,
+      thumbnail: tyler,
+      description: "Drum Set Web Simulator",
+      originalTitle: "Drum Set Web Simulator",
       thumbnailHeight: "60px",
-      thumbnailWidth: "90px",
+      thumbnailWidth: "120px",
     },
     {
       original: namm,

@@ -179,7 +179,7 @@ export default function Hobbies() {
             </Col>
           </Row>
         </Container>
-        <div style={{ padding: "40px" }}>
+        <div style={{ padding: "35px" }}>
           <TypeWriterEffect
             textStyle={{
               fontSize: "2.4em",
