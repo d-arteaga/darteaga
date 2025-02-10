@@ -73,7 +73,7 @@ export default function Hobbies() {
       <br />
       <br />
       <Stack gap={2}>
-        <div style={{ padding: "33px" }}>
+        <div style={{ padding: "32px" }}>
           <TypeWriterEffect
             textStyle={{
               fontSize: "2.4em",
@@ -131,7 +131,7 @@ export default function Hobbies() {
 
         <br></br>
 
-        <div style={{ padding: "33px" }}>
+        <div style={{ padding: "32px" }}>
           <TypeWriterEffect
             textStyle={{
               fontSize: "2.4em",
@@ -179,7 +179,8 @@ export default function Hobbies() {
             </Col>
           </Row>
         </Container>
-        <div style={{ padding: "35px" }}>
+        <br />
+        <div style={{ padding: "25px", paddingTop: "30px" }}>
           <TypeWriterEffect
             textStyle={{
               fontSize: "2.4em",

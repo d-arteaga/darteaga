@@ -79,7 +79,7 @@ export default function Home() {
       <Header />
       <br />
       <Stack gap={3}>
-        <div style={{ paddingTop: "60px" }}>
+        <div style={{ paddingTop: "58px" }}>
           <TypeWriterEffect
             textStyle={{
               fontSize: "5.7em",
