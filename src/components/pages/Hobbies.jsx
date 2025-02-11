@@ -76,7 +76,7 @@ export default function Hobbies() {
         <div style={{ padding: "32px" }}>
           <TypeWriterEffect
             textStyle={{
-              fontSize: "2.4em",
+              fontSize: "2.35em",
               textAlign: "center",
             }}
             startDelay={100}
@@ -102,12 +102,22 @@ export default function Hobbies() {
                 the writing and recording of their debut album,{" "}
                 <i>Identity&nbsp;Theft</i>, which is currently available for
                 streaming on{" "}
-                <a href="https://open.spotify.com/album/2Js0jE3E7Myam7T9Ocqrd6?si=4i8nkZbrQyyP8o--n5RcdQ">
+                <a
+                  href="https://open.spotify.com/album/2Js0jE3E7Myam7T9Ocqrd6?si=4i8nkZbrQyyP8o--n5RcdQ"
+                  target="_blank"
+                  title="Spotify"
+                  aria-label="Spotify link to Identity Fraud album"
+                >
                   Spotify
                 </a>{" "}
                 and{" "}
-                <a href="https://music.apple.com/us/album/identity-fraud/1727888226">
-                  Apple Music
+                <a
+                  href="https://music.apple.com/us/album/identity-fraud/1727888226"
+                  target="_blank"
+                  title="Apple Music"
+                  aria-label="Apple Music link to Identity Fraud album"
+                >
+                  Apple&nbsp;Music
                 </a>
                 .<br></br>
                 Now, I play drums and guitar in my spare time and enjoy
@@ -134,7 +144,7 @@ export default function Hobbies() {
         <div style={{ padding: "32px" }}>
           <TypeWriterEffect
             textStyle={{
-              fontSize: "2.4em",
+              fontSize: "2.35em",
               textAlign: "center", // Ensures the text is centered properly
             }}
             startDelay={100}
@@ -183,7 +193,7 @@ export default function Hobbies() {
         <div style={{ padding: "25px", paddingTop: "30px" }}>
           <TypeWriterEffect
             textStyle={{
-              fontSize: "2.4em",
+              fontSize: "2.35em",
               textAlign: "center", // Ensures the text is centered properly
             }}
             startDelay={100}

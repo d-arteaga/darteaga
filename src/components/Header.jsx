@@ -18,12 +18,31 @@ export default function Header() {
               <Nav.Link as={Link} to="/" className="mx-1">
                 Home
               </Nav.Link>
+              <Nav.Link
+                href="https://www.linkedin.com/in/arteagadiego/"
+                aria-label="LinkedIn"
+                target="_blank"
+                className="mx-1"
+                title="LinkedIn Profile"
+              >
+                LinkedIn
+              </Nav.Link>
+              <Nav.Link
+                href="https://github.com/d-arteaga"
+                target="_blank"
+                aria-label="GitHub"
+                title="GitHub Profile"
+                className="mx-1"
+              >
+                GitHub
+              </Nav.Link>
               <Nav.Link as={Link} to="/Projects" className="mx-1">
                 Projects
               </Nav.Link>
               <Nav.Link as={Link} to="/Resume" className="mx-1">
                 Resume
               </Nav.Link>
+
               <Nav.Link as={Link} to="/BeyondCode" className="mx-1">
                 Beyond Code
               </Nav.Link>

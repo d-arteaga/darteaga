@@ -39,6 +39,7 @@ export default function Projects() {
                 <Button
                   variant="primary"
                   href="https://github.com/d-arteaga/fake--spotify"
+                  target="_blank"
                 >
                   &lt;/&gt; React
                 </Button>
@@ -60,6 +61,7 @@ export default function Projects() {
                 <Button
                   variant="primary"
                   href="https://github.com/diego-arteaga0/trend-analysis-tool"
+                  target="_blank"
                 >
                   &lt;/&gt; Python
                 </Button>
@@ -84,6 +86,7 @@ export default function Projects() {
                 <Button
                   variant="primary"
                   href="https://github.com/diego-arteaga0/chef-kirby"
+                  target="_blank"
                 >
                   &lt;/&gt; React
                 </Button>
@@ -106,6 +109,7 @@ export default function Projects() {
                 <Button
                   variant="primary"
                   href="https://github.com/diego-arteaga0/darteaga"
+                  target="_blank"
                 >
                   &lt;/&gt; React
                 </Button>
@@ -127,8 +131,9 @@ export default function Projects() {
                 <Button
                   variant="primary"
                   href="https://github.com/diego-arteaga0/Tyler--the-Creator-e-Drum-Kit"
+                  target="_blank"
                 >
-                  &lt;/&gt; Javascript
+                  &lt;/&gt; JavaScript
                 </Button>
               </Card.Body>
             </Card>
@@ -149,6 +154,7 @@ export default function Projects() {
                 <Button
                   variant="primary"
                   href="https://d-arteaga.github.io/assembly-endgame/"
+                  target="_blank"
                 >
                   Play here!
                 </Button>
