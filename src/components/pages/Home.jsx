@@ -5,6 +5,7 @@ import music from "../assets/ongaku.png";
 import nature from "../assets/nature.jpg";
 import tyler from "../assets/tyler_drum.png";
 import namm from "../assets/namm.png";
+import cocoa from "../assets/colco.png";
 import ImageGallery from "react-image-gallery";
 import Stack from "react-bootstrap/Stack";
 import Header from "../Header";
@@ -25,17 +26,26 @@ export default function Home() {
   };
   const images = [
     {
-      original: kirby,
+      original: cocoa,
       thumbnail: kirby,
-      originalTitle: "AI Recipe Recommendation App",
-      //description: "AI Recipe Generator",
+      originalTitle: "Agricultural IoT",
+      description: "Agricultural IoT",
       thumbnailHeight: "60px",
       thumbnailWidth: "80px",
     },
+
     {
       original: drums,
       thumbnail: drums,
       originalTitle: 'Performing "Caravan"',
+      thumbnailHeight: "60px",
+      thumbnailWidth: "80px",
+    },
+    {
+      original: kirby,
+      thumbnail: kirby,
+      originalTitle: "AI Recipe Recommendation App",
+      //description: "AI Recipe Generator",
       thumbnailHeight: "60px",
       thumbnailWidth: "80px",
     },
