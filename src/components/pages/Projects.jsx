@@ -7,7 +7,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import tyler from "../assets/drum_sim.png";
 import spotify from "../assets/ongaku.png";
-import covid from "../assets/covid.png";
+import data from "../assets/lung_heatmap.png";
 import assembly from "../assets/endgame.png";
 import port from "../assets/portfolio.png";
 import Footer from "../Footer";
@@ -49,18 +49,18 @@ export default function Projects() {
 
           <Col md={4}>
             <Card>
-              <Card.Img variant="top" src={covid} />
+              <Card.Img variant="top" src={data} />
               <Card.Body>
-                <Card.Title>COVID-19 Trend Analysis Tool</Card.Title>
+                <Card.Title>Lung Cancer Data Analysis Tool</Card.Title>
                 <Card.Text>
-                  This project enhanced my skills in data manipulation and
+                  This project enhanced my skills in data analysis and
                   visualization, as well as machine learning. It helped me gain
                   a deeper understanding of various Python libraries and their
-                  applications in real-world data analysis.
+                  applications in data science.
                 </Card.Text>
                 <Button
                   variant="primary"
-                  href="https://github.com/diego-arteaga0/trend-analysis-tool"
+                  href="https://github.com/d-arteaga/lung-cancer-data-exploration"
                   target="_blank"
                 >
                   &lt;/&gt; Python
