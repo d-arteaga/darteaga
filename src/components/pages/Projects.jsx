@@ -11,7 +11,7 @@ import data from "../assets/lung_heatmap.png";
 import assembly from "../assets/endgame.png";
 import port from "../assets/portfolio.png";
 import Footer from "../Footer";
-import meme from "../assets/meme.png";
+import lung3d from "../assets/3d_ct.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Projects() {
@@ -49,18 +49,18 @@ export default function Projects() {
 
           <Col md={4}>
             <Card>
-              <Card.Img variant="top" src={data} />
+              <Card.Img variant="top" src={lung3d} />
               <Card.Body>
-                <Card.Title>Lung Cancer Data Analysis Tool</Card.Title>
+                <Card.Title>Lung Cancer Detection</Card.Title>
                 <Card.Text>
-                  This project enhanced my skills in data analysis and
-                  visualization, as well as machine learning. It helped me gain
-                  a deeper understanding of various Python libraries and their
-                  applications in data science.
+                  Developed a machine learning model to detect lung nodules from
+                  CT scans, applying techniques from computer vision. This
+                  project enriched my understanding of Python libraries like
+                  TensorFlow and OpenCV and their real-world applications.
                 </Card.Text>
                 <Button
                   variant="primary"
-                  href="https://github.com/d-arteaga/lung-cancer-data-exploration"
+                  href="https://github.com/d-arteaga/lung-cancer-detection"
                   target="_blank"
                 >
                   &lt;/&gt; Python
@@ -119,6 +119,27 @@ export default function Projects() {
 
           <Col md={4}>
             <Card>
+              <Card.Img variant="top" src={data} />
+              <Card.Body>
+                <Card.Title>Lung Cancer Data Analysis Tool</Card.Title>
+                <Card.Text>
+                  This project enhanced my skills in data analysis and
+                  visualization, as well as machine learning. It helped me gain
+                  a deeper understanding of various Python libraries and their
+                  applications in data science.
+                </Card.Text>
+                <Button
+                  variant="primary"
+                  href="https://github.com/d-arteaga/lung-cancer-data-exploration"
+                  target="_blank"
+                >
+                  &lt;/&gt; Python
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4}>
+            {/* <Card>
               <Card.Img variant="top" src={tyler} />
               <Card.Body>
                 <Card.Title>Drum Kit Web Simulator</Card.Title>
@@ -136,9 +157,7 @@ export default function Projects() {
                   &lt;/&gt; JavaScript
                 </Button>
               </Card.Body>
-            </Card>
-          </Col>
-          <Col md={4}>
+            </Card> */}
             <Card>
               <Card.Img variant="top" src={assembly} />
               <Card.Body>
