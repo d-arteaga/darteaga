@@ -11,7 +11,7 @@ import data from "../assets/lung_heatmap.png";
 import assembly from "../assets/endgame.png";
 import port from "../assets/portfolio.png";
 import Footer from "../Footer";
-import lung3d from "../assets/3d_ct.png";
+import lung3d from "../assets/lung_project0.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Projects() {
@@ -53,10 +53,10 @@ export default function Projects() {
               <Card.Body>
                 <Card.Title>Lung Cancer Detection</Card.Title>
                 <Card.Text>
-                  Developed a machine learning model to detect lung nodules from
-                  CT scans, applying techniques from computer vision. This
-                  project enriched my understanding of Python libraries like
-                  TensorFlow and OpenCV and their real-world applications.
+                  Developed a lung cancer detection model using computer vision
+                  techniques on time series CT scan dataset, enhancing my
+                  proficiency with Python libraries like NumPy, TensorFlow,
+                  OpenCV, Matplotlib, and PyVista.
                 </Card.Text>
                 <Button
                   variant="primary"
