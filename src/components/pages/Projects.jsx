@@ -51,12 +51,13 @@ export default function Projects() {
             <Card>
               <Card.Img variant="top" src={lung3d} />
               <Card.Body>
-                <Card.Title>Lung Cancer Detection</Card.Title>
+                <Card.Title>Lung Cancer Detection 2D CNN</Card.Title>
                 <Card.Text>
-                  Developed a lung cancer detection model using computer vision
-                  techniques on time series CT scan dataset, enhancing my
-                  proficiency with Python libraries like NumPy, TensorFlow,
-                  OpenCV, Matplotlib, and PyVista.
+                  Developed a lung cancer detection multi-view 2D CNN model
+                  using computer vision techniques on CT scans through
+                  multiplanar reconstruction, enhancing my proficiency with
+                  Python libraries like NumPy, TensorFlow, OpenCV, Matplotlib,
+                  and SimpleITK.
                 </Card.Text>
                 <Button
                   variant="primary"
