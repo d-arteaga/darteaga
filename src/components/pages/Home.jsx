@@ -5,7 +5,7 @@ import music from "../assets/ongaku.png";
 import nature from "../assets/nature.jpg";
 import tyler from "../assets/tyler_drum.png";
 import namm from "../assets/namm.png";
-import cocoa from "../assets/colco.png";
+import cocoa from "../assets/col.png";
 import ImageGallery from "react-image-gallery";
 import Stack from "react-bootstrap/Stack";
 import Header from "../Header";
@@ -13,6 +13,7 @@ import Container from "react-bootstrap/Container";
 import Footer from "../Footer";
 import "react-image-gallery/styles/css/image-gallery.css";
 import "./Home.css";
+import { CarouselCaption } from "react-bootstrap";
 
 export default function Home() {
   const myRef = document.querySelector(".scrollable-div");
@@ -27,7 +28,7 @@ export default function Home() {
   const images = [
     {
       original: cocoa,
-      thumbnail: kirby,
+      thumbnail: cocoa,
       originalTitle: "Agricultural IoT",
       description: "Agricultural IoT",
       thumbnailHeight: "60px",

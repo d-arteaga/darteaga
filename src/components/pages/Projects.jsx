@@ -51,13 +51,12 @@ export default function Projects() {
             <Card>
               <Card.Img variant="top" src={lung3d} />
               <Card.Body>
-                <Card.Title>Lung Cancer Detection 2D CNN</Card.Title>
+                <Card.Title>Lung Cancer Detection</Card.Title>
                 <Card.Text>
-                  Developed a lung cancer detection multi-view 2D CNN model
-                  using computer vision techniques on CT scans through
-                  multiplanar reconstruction, enhancing my proficiency with
-                  Python libraries like NumPy, TensorFlow, OpenCV, Matplotlib,
-                  and SimpleITK.
+                  Trained a multi-view CNN model using computer vision
+                  techniques on CT scans through multi-planar reconstruction,
+                  enhancing my proficiency with Python libraries like NumPy,
+                  TensorFlow, OpenCV, Matplotlib, and SimpleITK.
                 </Card.Text>
                 <Button
                   variant="primary"
@@ -120,27 +119,6 @@ export default function Projects() {
 
           <Col md={4}>
             <Card>
-              <Card.Img variant="top" src={data} />
-              <Card.Body>
-                <Card.Title>Lung Cancer Data Analysis Tool</Card.Title>
-                <Card.Text>
-                  This project enhanced my skills in data analysis and
-                  visualization, as well as machine learning. It helped me gain
-                  a deeper understanding of various Python libraries and their
-                  applications in data science.
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  href="https://github.com/d-arteaga/lung-cancer-data-exploration"
-                  target="_blank"
-                >
-                  &lt;/&gt; Python
-                </Button>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={4}>
-            {/* <Card>
               <Card.Img variant="top" src={tyler} />
               <Card.Body>
                 <Card.Title>Drum Kit Web Simulator</Card.Title>
@@ -158,7 +136,28 @@ export default function Projects() {
                   &lt;/&gt; JavaScript
                 </Button>
               </Card.Body>
+            </Card>
+            {/* <Card>
+              <Card.Img variant="top" src={data} />
+              <Card.Body>
+                <Card.Title>Lung Cancer Data Analysis Tool</Card.Title>
+                <Card.Text>
+                  This project enhanced my skills in data analysis and
+                  visualization, as well as machine learning. It helped me gain
+                  a deeper understanding of various Python libraries and their
+                  applications in data science.
+                </Card.Text>
+                <Button
+                  variant="primary"
+                  href="https://github.com/d-arteaga/lung-cancer-data-exploration"
+                  target="_blank"
+                >
+                  &lt;/&gt; Python
+                </Button>
+              </Card.Body>
             </Card> */}
+          </Col>
+          <Col md={4}>
             <Card>
               <Card.Img variant="top" src={assembly} />
               <Card.Body>
