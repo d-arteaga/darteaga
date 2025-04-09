@@ -53,10 +53,10 @@ export default function Projects() {
               <Card.Body>
                 <Card.Title>Lung Cancer Detection</Card.Title>
                 <Card.Text>
-                  Trained a multi-view CNN model using computer vision
-                  techniques on CT scans through multi-planar reconstruction,
-                  enhancing my proficiency with Python libraries like NumPy,
-                  TensorFlow, OpenCV, Matplotlib, and SimpleITK.
+                  Trained a CNN model using computer vision techniques on over
+                  10,000 CT scan DICOM images, enhancing my proficiency with
+                  Python libraries like NumPy, TensorFlow, OpenCV, Matplotlib,
+                  and SimpleITK.
                 </Card.Text>
                 <Button
                   variant="primary"
