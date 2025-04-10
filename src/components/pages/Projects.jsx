@@ -11,7 +11,7 @@ import data from "../assets/lung_heatmap.png";
 import assembly from "../assets/endgame.png";
 import port from "../assets/portfolio.png";
 import Footer from "../Footer";
-import lung3d from "../assets/lung_project0.png";
+import lung from "../assets/lung_nodule.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Projects() {
@@ -49,7 +49,7 @@ export default function Projects() {
 
           <Col md={4}>
             <Card>
-              <Card.Img variant="top" src={lung3d} />
+              <Card.Img variant="top" src={lung} />
               <Card.Body>
                 <Card.Title>Lung Cancer Detection</Card.Title>
                 <Card.Text>

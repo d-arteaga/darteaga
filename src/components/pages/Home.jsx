@@ -6,6 +6,7 @@ import nature from "../assets/nature.jpg";
 import tyler from "../assets/tyler_drum.png";
 import namm from "../assets/namm.png";
 import cocoa from "../assets/col.png";
+import lung from "../assets/lung_nodule.png";
 import ImageGallery from "react-image-gallery";
 import Stack from "react-bootstrap/Stack";
 import Header from "../Header";
@@ -47,6 +48,14 @@ export default function Home() {
       thumbnail: kirby,
       originalTitle: "AI Recipe Recommendation App",
       //description: "AI Recipe Generator",
+      thumbnailHeight: "60px",
+      thumbnailWidth: "80px",
+    },
+    {
+      original: lung,
+      thumbnail: lung,
+      originalTitle: "Lung Cancer Detection",
+      description: "Lung Cancer Detection",
       thumbnailHeight: "60px",
       thumbnailWidth: "80px",
     },
