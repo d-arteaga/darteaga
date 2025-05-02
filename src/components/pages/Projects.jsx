@@ -7,7 +7,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import tyler from "../assets/drum_sim.png";
 import spotify from "../assets/ongaku.png";
-import data from "../assets/lung_heatmap.png";
+import health from "../assets/healthcare.png";
 import assembly from "../assets/endgame.png";
 import port from "../assets/portfolio.png";
 import Footer from "../Footer";
@@ -24,7 +24,7 @@ export default function Projects() {
         <Row lg={3} xs={2}>
           <Col>
             <Card>
-              <Card.Img variant="top" src={spotify} />
+              <Card.Img as="img" loading="lazy" variant="top" src={spotify} />
               <Card.Body>
                 <Card.Title>
                   <i>ONGAKU</i> - Spotify Clone
@@ -49,14 +49,14 @@ export default function Projects() {
 
           <Col md={4}>
             <Card>
-              <Card.Img variant="top" src={lung} />
+              <Card.Img as="img" loading="lazy" variant="top" src={lung} />
               <Card.Body>
                 <Card.Title>Lung Cancer Detection</Card.Title>
                 <Card.Text>
-                  Trained a CNN model using computer vision techniques on over
-                  10,000 CT scan DICOM images, enhancing my proficiency with
-                  Python libraries like NumPy, TensorFlow, OpenCV, Matplotlib,
-                  and SimpleITK.
+                  Trained a CNN model analyzing radiologist annotations and
+                  using computer vision techniques on over 10,000 CT scan DICOM
+                  images, enhancing my proficiency with Python libraries like
+                  NumPy, TensorFlow, OpenCV, and Matplotlib.
                 </Card.Text>
                 <Button
                   variant="primary"
@@ -71,24 +71,21 @@ export default function Projects() {
           <Col>
             {" "}
             <Card>
-              <Card.Img variant="top" src={chef} />
-
+              <Card.Img variant="top" src={health} />
               <Card.Body>
-                <Card.Title>
-                  <em>Chef Kirby</em> - AI Recipe Generator
-                </Card.Title>
+                <Card.Title>Healthcare IoT Device Anomaly Detection</Card.Title>
                 <Card.Text>
-                  A React-based AI-powered recipe recommendation app that
-                  utilizes the Hugging Face API to create unique recipes and
-                  detailed cooking instructions based on user-provided list of
-                  ingredients.
+                  Developed an end-to-end pipeline to detect anomalies in
+                  wearable health data using Isolation Forest. Extracted 20+
+                  features from biosignals and gained hands-on experience with
+                  ML models and result analysis.
                 </Card.Text>
                 <Button
                   variant="primary"
-                  href="https://github.com/diego-arteaga0/chef-kirby"
+                  href="https://github.com/d-arteaga/healthcare-anomaly"
                   target="_blank"
                 >
-                  &lt;/&gt; React
+                  &lt;/&gt; Python
                 </Button>
               </Card.Body>
             </Card>
@@ -98,7 +95,7 @@ export default function Projects() {
         <Row lg={3} xs={2}>
           <Col md={4}>
             <Card>
-              <Card.Img variant="top" src={port} />
+              <Card.Img as="img" loading="lazy" variant="top" src={port} />
               <Card.Body>
                 <Card.Title>Personal Portfolio Website</Card.Title>
                 <Card.Text>
@@ -119,7 +116,48 @@ export default function Projects() {
 
           <Col md={4}>
             <Card>
-              <Card.Img variant="top" src={tyler} />
+              <Card.Img as="img" loading="lazy" variant="top" src={chef} />
+              <Card.Body>
+                <Card.Title>
+                  <em>Chef Kirby</em> - AI Recipe Generator
+                </Card.Title>
+                <Card.Text>
+                  A React-based AI-powered recipe recommendation app that
+                  utilizes the Hugging Face API to create unique recipes and
+                  detailed cooking instructions based on user-provided list of
+                  ingredients.
+                </Card.Text>
+                <Button
+                  variant="primary"
+                  href="https://github.com/diego-arteaga0/chef-kirby"
+                  target="_blank"
+                >
+                  &lt;/&gt; React
+                </Button>
+              </Card.Body>
+            </Card>
+            {/* <Card>
+              <Card.Img variant="top" src={health} />
+              <Card.Body>
+                <Card.Title>Healthcare IoT Device Anomaly Detection</Card.Title>
+                <Card.Text>
+                 Developed an end-to-end pipeline to detect anomalies in wearable health data using Isolation Forest,
+                  improving detection accuracy by 20%. Extracted 20+ features from biosignals and gained hands-on 
+                  experience with ML models and result analysis.
+                </Card.Text>
+                <Button
+                  variant="primary"
+                  href="https://github.com/d-arteaga/lung-cancer-data-exploration"
+                  target="_blank"
+                >
+                  &lt;/&gt; Python
+                </Button>
+              </Card.Body>
+            </Card> */}
+          </Col>
+          <Col md={4}>
+            <Card>
+              <Card.Img as="img" loading="lazy" variant="top" src={tyler} />
               <Card.Body>
                 <Card.Title>Drum Kit Web Simulator</Card.Title>
                 <Card.Text>
@@ -134,48 +172,6 @@ export default function Projects() {
                   target="_blank"
                 >
                   &lt;/&gt; JavaScript
-                </Button>
-              </Card.Body>
-            </Card>
-            {/* <Card>
-              <Card.Img variant="top" src={data} />
-              <Card.Body>
-                <Card.Title>Lung Cancer Data Analysis Tool</Card.Title>
-                <Card.Text>
-                  This project enhanced my skills in data analysis and
-                  visualization, as well as machine learning. It helped me gain
-                  a deeper understanding of various Python libraries and their
-                  applications in data science.
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  href="https://github.com/d-arteaga/lung-cancer-data-exploration"
-                  target="_blank"
-                >
-                  &lt;/&gt; Python
-                </Button>
-              </Card.Body>
-            </Card> */}
-          </Col>
-          <Col md={4}>
-            <Card>
-              <Card.Img variant="top" src={assembly} />
-              <Card.Body>
-                <Card.Title>
-                  <em>Assembly: Endgame</em>
-                </Card.Title>
-                <Card.Text>
-                  Developed a Hangman game using React to master key React
-                  concepts and enhance my skills with hands-on experience. This
-                  project allowed me to gain practical knowledge in building
-                  interactive applications.
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  href="https://d-arteaga.github.io/assembly-endgame/"
-                  target="_blank"
-                >
-                  Play here!
                 </Button>
               </Card.Body>
             </Card>

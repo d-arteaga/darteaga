@@ -7,6 +7,7 @@ import tyler from "../assets/tyler_drum.png";
 import namm from "../assets/namm.png";
 import cocoa from "../assets/col.png";
 import lung from "../assets/lung_nodule.png";
+import health from "../assets/healthcare.png";
 import ImageGallery from "react-image-gallery";
 import Stack from "react-bootstrap/Stack";
 import Header from "../Header";
@@ -40,6 +41,14 @@ export default function Home() {
       original: drums,
       thumbnail: drums,
       originalTitle: 'Performing "Caravan"',
+      thumbnailHeight: "60px",
+      thumbnailWidth: "80px",
+    },
+    {
+      original: health,
+      thumbnail: health,
+      originalTitle: "Healthcare Device Anomaly Detection",
+      description: "Healthcare IoT Anomaly Detection",
       thumbnailHeight: "60px",
       thumbnailWidth: "80px",
     },
@@ -118,7 +127,7 @@ export default function Home() {
           </h3>
         </Container>
         <Container>
-          <ImageGallery items={images} autoPlay infinite />
+          <ImageGallery items={images} autoPlay infinite lazyload />
         </Container>
       </Stack>
 
