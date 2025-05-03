@@ -16,9 +16,11 @@ import Footer from "../Footer";
 import "react-image-gallery/styles/css/image-gallery.css";
 import "./Home.css";
 import { CarouselCaption } from "react-bootstrap";
+import { useState, useEffect } from "react";
 
 export default function Home() {
   const myRef = document.querySelector(".scrollable-div");
+  const [fontSize, setFontSize] = useState("5.7em");
   const handleDragStart = (e) => e.preventDefault();
   const styles = {
     width: "100%", // Make sure it scales with the carousel container
@@ -103,6 +105,27 @@ export default function Home() {
     },
   ];
 
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 480) {
+        setFontSize("3em");
+      } else if (window.innerWidth <= 768) {
+        setFontSize("4em");
+      } else {
+        setFontSize("5.7em");
+      }
+    };
+
+    // Set initial font size
+    handleResize();
+
+    // Add event listener for window resize
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup event listener on component unmount
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <>
       <Header />
@@ -111,7 +134,7 @@ export default function Home() {
         <div style={{ paddingTop: "58px" }}>
           <TypeWriterEffect
             textStyle={{
-              fontSize: "5.7em",
+              fontSize: fontSize,
               textAlign: "center",
             }}
             startDelay={100}

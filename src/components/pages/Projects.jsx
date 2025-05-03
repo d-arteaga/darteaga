@@ -21,7 +21,7 @@ export default function Projects() {
       <br />
       <br />
       <Container fluid="lg">
-        <Row lg={3} xs={2}>
+        <Row lg={3} md={3} s={2} xs={1}>
           <Col>
             <Card>
               <Card.Img as="img" loading="lazy" variant="top" src={spotify} />
@@ -92,7 +92,7 @@ export default function Projects() {
           </Col>
         </Row>
         <br></br>
-        <Row lg={3} xs={2}>
+        <Row lg={3} xs={1}>
           <Col md={4}>
             <Card>
               <Card.Img as="img" loading="lazy" variant="top" src={port} />
