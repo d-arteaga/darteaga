@@ -24,6 +24,28 @@ export default function Projects() {
         <Row lg={3} md={3} s={2} xs={1}>
           <Col>
             <Card>
+              <Card.Img variant="top" src={health} />
+              <Card.Body>
+                <Card.Title>Healthcare IoT Device Anomaly Detection</Card.Title>
+                <Card.Text>
+                  Developed an end-to-end pipeline to detect anomalies in
+                  wearable health data using Isolation Forest. Extracted 20+
+                  features from biosignals and gained hands-on experience with
+                  ML models and result analysis.
+                </Card.Text>
+                <Button
+                  variant="primary"
+                  href="https://github.com/d-arteaga/healthcare-anomaly"
+                  target="_blank"
+                >
+                  &lt;/&gt; Python
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col md={4}>
+            <Card>
               <Card.Img as="img" loading="lazy" variant="top" src={spotify} />
               <Card.Body>
                 <Card.Title>
@@ -46,8 +68,7 @@ export default function Projects() {
               </Card.Body>
             </Card>
           </Col>
-
-          <Col md={4}>
+          <Col>
             <Card>
               <Card.Img as="img" loading="lazy" variant="top" src={lung} />
               <Card.Body>
@@ -61,28 +82,6 @@ export default function Projects() {
                 <Button
                   variant="primary"
                   href="https://github.com/d-arteaga/lung-cancer-detection"
-                  target="_blank"
-                >
-                  &lt;/&gt; Python
-                </Button>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col>
-            {" "}
-            <Card>
-              <Card.Img variant="top" src={health} />
-              <Card.Body>
-                <Card.Title>Healthcare IoT Device Anomaly Detection</Card.Title>
-                <Card.Text>
-                  Developed an end-to-end pipeline to detect anomalies in
-                  wearable health data using Isolation Forest. Extracted 20+
-                  features from biosignals and gained hands-on experience with
-                  ML models and result analysis.
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  href="https://github.com/d-arteaga/healthcare-anomaly"
                   target="_blank"
                 >
                   &lt;/&gt; Python
