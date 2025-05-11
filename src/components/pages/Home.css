@@ -16,7 +16,7 @@
   
   @media (max-width: 480px) {
     .tagline {
-      font-size: 1rem; /* Even smaller for very small screens */
+      font-size: 1.1rem; /* Even smaller for very small screens */
     }
   }
   

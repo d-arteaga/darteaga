@@ -52,11 +52,11 @@ export default function Projects() {
                   <i>ONGAKU</i> - Spotify Clone
                 </Card.Title>
                 <Card.Text>
-                  Redesigned a personal project originally built with PHP and
-                  JavaScript, utilizing React and Bootstrap for a modern,
-                  responsive UI. Developed a scalable backend with Node.js,
-                  Express.js, and MySQL, optimizing data management and API
-                  efficiency.
+                  Rebuilt a full-stack music streaming app with React, Vite, and
+                  Bootstrap for a responsive UI. Developed a Node.js and
+                  Express.js backend with MySQL, integrated the Last.fm API, and
+                  added features like dynamic search, liked songs, and user
+                  profiles.
                 </Card.Text>
                 <Button
                   variant="primary"

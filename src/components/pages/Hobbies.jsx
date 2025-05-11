@@ -13,6 +13,7 @@ import Header from "../Header";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Image from "react-bootstrap/Image";
 import "react-image-gallery/styles/css/image-gallery.css";
 import "./Hobbies.css";
 
@@ -174,18 +175,17 @@ export default function Hobbies() {
                 storytelling to maximize impact.{" "}
               </p>
             </Col>
-            <Col>
-              <div>
-                <img
-                  src={adobe}
-                  style={{
-                    borderRadius: "7px",
-                    maxWidth: "100%",
-                    width: "575px",
-                    height: "auto",
-                  }}
-                />
-              </div>
+            <Col className="d-flex justify-content-center text-center">
+              <Image
+                src={adobe}
+                rounded // Adds rounded corners
+                fluid // Makes the image responsive
+                style={{
+                  maxWidth: "575px",
+                  width: "100%",
+                  height: "auto",
+                }}
+              />
             </Col>
           </Row>
         </Container>
@@ -226,25 +226,17 @@ export default function Hobbies() {
                 </p>
               </div>
             </Col>
-            <Col>
-              <div
-                className="p-2"
+            <Col className="d-flex justify-content-center text-center">
+              <Image
+                src={nature}
+                rounded // Adds rounded corners
+                fluid // Makes the image responsive
                 style={{
-                  display: "flex",
-                  flexWrap: "wrap",
-                  overflow: "hidden",
+                  width: "480px",
+                  maxWidth: "100%",
+                  height: "auto",
                 }}
-              >
-                <img
-                  src={nature}
-                  style={{
-                    borderRadius: "7px",
-                    width: "480px",
-                    maxWidth: "100%",
-                    height: "auto",
-                  }}
-                />
-              </div>
+              />
             </Col>
           </Row>
         </Container>
