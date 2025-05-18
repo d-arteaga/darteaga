@@ -89,7 +89,7 @@ export default function Hobbies() {
         </div>
         <Container fluid="lg">
           <Row lg={2}>
-            <Col>
+            <Col md={6}>
               <p className="hobby-text">
                 <strong>Music has always been a huge part of my life.</strong>
                 <br></br>I play drums, guitar, bass, and a variety of percussion
@@ -129,7 +129,7 @@ export default function Hobbies() {
                 // Ventura and the Pasadena Civic Center to a boat parade in Oxnard. */}
               </p>
             </Col>
-            <Col>
+            <Col md={6}>
               <ImageGallery
                 items={images}
                 thumbnailPosition="bottom"
@@ -205,7 +205,7 @@ export default function Hobbies() {
         </div>
         <Container fluid="lg">
           <Row lg={2} xs={1}>
-            <Col>
+            <Col md={6}>
               <div className="p-2">
                 <p className="hobby-text">
                   Outside of music and video editing, I enjoy staying active and
@@ -226,14 +226,17 @@ export default function Hobbies() {
                 </p>
               </div>
             </Col>
-            <Col className="d-flex justify-content-center text-center">
+            <Col
+              md={6}
+              className="d-flex justify-content-center align-items-center text-center"
+            >
               <Image
                 src={nature}
                 rounded // Adds rounded corners
                 fluid // Makes the image responsive
                 style={{
-                  width: "480px",
-                  maxWidth: "100%",
+                  maxWidth: "480px",
+                  width: "100%",
                   height: "auto",
                 }}
               />
