@@ -1,4 +1,5 @@
 import TypeWriterEffect from "react-typewriter-effect";
+import iomt from "../assets/iomt.png";
 import kirby from "../assets/chef_app.png";
 import drums from "../assets/drumming.jpg";
 import music from "../assets/ongaku.png";
@@ -31,6 +32,14 @@ export default function Home() {
   };
   const images = [
     {
+      original: iomt,
+      thumbnail: iomt,
+      originalTitle: "IoMT Anomaly Detection",
+      // description: "Healthcare IoT Anomaly Detection",
+      thumbnailHeight: "60px",
+      thumbnailWidth: "80px",
+    },
+    {
       original: cocoa,
       thumbnail: cocoa,
       originalTitle: "Agricultural IoT",
@@ -46,14 +55,7 @@ export default function Home() {
       thumbnailHeight: "60px",
       thumbnailWidth: "80px",
     },
-    {
-      original: health,
-      thumbnail: health,
-      originalTitle: "Healthcare Device Anomaly Detection",
-      description: "Healthcare IoT Anomaly Detection",
-      thumbnailHeight: "60px",
-      thumbnailWidth: "80px",
-    },
+
     {
       original: kirby,
       thumbnail: kirby,

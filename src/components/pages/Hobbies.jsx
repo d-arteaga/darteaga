@@ -94,15 +94,14 @@ export default function Hobbies() {
                 <strong>Music has always been a huge part of my life.</strong>
                 <br></br>I play drums, guitar, bass, and a variety of percussion
                 instruments, and I spent several years working as a studio
-                musician. During that time, I performed everywhere from local
-                clubs in Ventura and the Pasadena Civic Center to a boat parade
-                in Oxnard. I even had the unique experience of performing at
-                NAMM 2020 in Anaheim, CA, opening for{" "}
-                <b>Tower&nbsp;of&nbsp;Power</b>. I was also the studio drummer
-                of the jazz ensemble The&nbsp;Jazz&nbsp;Lawyers, contributing to
-                the writing and recording of their debut album,{" "}
-                <i>Identity&nbsp;Theft</i>, which is currently available for
-                streaming on{" "}
+                musician. During that time, I performed everywhere from Ventura
+                Harbor and the Pasadena Civic Center to a boat parade in Oxnard.
+                I even had the unique experience of performing at NAMM 2020 in
+                Anaheim, CA, opening for <b>Tower&nbsp;of&nbsp;Power</b>. I was
+                also the studio drummer of the jazz ensemble
+                The&nbsp;Jazz&nbsp;Lawyers, contributing to the writing and
+                recording of their debut album, <i>Identity&nbsp;Theft</i>,
+                which is currently available for streaming on{" "}
                 <a
                   href="https://open.spotify.com/album/2Js0jE3E7Myam7T9Ocqrd6?si=4i8nkZbrQyyP8o--n5RcdQ"
                   target="_blank"
@@ -163,16 +162,16 @@ export default function Hobbies() {
                 experience as a video editor and content analyst, blending
                 creativity with data-driven decision-making. I specialize in
                 video and audio workflows, utilizing Ableton&nbsp;Live,
-                Adobe&nbsp;Premiere&nbsp;Pro, Adobe&nbsp;After&nbsp;Effects, and
+                Adobe&nbsp;Premiere&nbsp;Pro, Adobe After&nbsp;Effects, and
                 Photopea to produce high-quality content.
                 <br /> I personally oversee and manage two separate content
                 businesses, handling everything from editing and post-production
                 to branding and audience engagement strategies. Beyond editing,
                 I take a data-driven approach to content performance, analyzing
-                various metrics using Python to optimize audience retention,
-                engagement, and growth. By leveraging data analytics, I refine
-                content strategies, improve video pacing, and enhance
-                storytelling to maximize impact.{" "}
+                various metrics to optimize audience retention, engagement, and
+                growth. By leveraging data analytics, I refine content
+                strategies, improve video pacing, and enhance storytelling to
+                maximize impact.{" "}
               </p>
             </Col>
             <Col className="d-flex justify-content-center text-center">
