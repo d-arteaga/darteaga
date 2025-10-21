@@ -97,8 +97,8 @@ export default function Hobbies() {
                 musician. During that time, I performed everywhere from Ventura
                 Harbor and the Pasadena Civic Center to a boat parade in Oxnard.
                 I even had the unique experience of performing at NAMM 2020 in
-                Anaheim, CA, opening for <b>Tower&nbsp;of&nbsp;Power</b>. I was
-                also the studio drummer of the jazz ensemble
+                Anaheim, CA, opening for Tower&nbsp;of&nbsp;Power. I was also
+                the studio drummer of the jazz ensemble
                 The&nbsp;Jazz&nbsp;Lawyers, contributing to the writing and
                 recording of their debut album, <i>Identity&nbsp;Theft</i>,
                 which is currently available for streaming on{" "}
@@ -159,19 +159,27 @@ export default function Hobbies() {
             <Col>
               <p className="hobby-text">
                 In addition to my work as a musician, I have several years of
-                experience as a video editor and content analyst, blending
-                creativity with data-driven decision-making. I specialize in
-                video and audio workflows, utilizing Ableton&nbsp;Live,
-                Adobe&nbsp;Premiere&nbsp;Pro, Adobe After&nbsp;Effects, and
-                Photopea to produce high-quality content.
-                <br /> I personally oversee and manage two separate content
+                experience as a video editor and social media manager, blending
+                creativity with data-driven insights. I manage and produce
+                content across multiple channels and platforms, overseeing every
+                step from editing and branding to analytics and growth strategy.
+                <br />
+                Using tools like Ableton&nbsp;Live,
+                Adobe&nbsp;Premiere&nbsp;Pro, Adobe After Effects, and Photopea,
+                I streamline video and audio workflows to deliver high-quality,
+                engaging content. By analyzing audience and performance data
+                from YouTube&nbsp;Studio and TikTok&nbsp;Analytics, I identify
+                high-retention patterns, test new approaches to content types,
+                thumbnails, and posting schedules, and continuously refine
+                content strategy—driving over 25&nbsp;million views.
+                {/* <br /> I personally oversee and manage two separate content
                 businesses, handling everything from editing and post-production
                 to branding and audience engagement strategies. Beyond editing,
                 I take a data-driven approach to content performance, analyzing
                 various metrics to optimize audience retention, engagement, and
                 growth. By leveraging data analytics, I refine content
                 strategies, improve video pacing, and enhance storytelling to
-                maximize impact.{" "}
+                maximize impact.{" "} */}
               </p>
             </Col>
             <Col className="d-flex justify-content-center text-center">
