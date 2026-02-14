@@ -32,10 +32,18 @@ export default function Home() {
   };
   const images = [
     {
-      original: iomt,
-      thumbnail: iomt,
-      originalTitle: "IoMT Anomaly Detection",
-      // description: "Healthcare IoT Anomaly Detection",
+      original: music,
+      thumbnail: music,
+      description: "Spotify Clone",
+      originalTitle: "Spotify Clone",
+      thumbnailHeight: "60px",
+      thumbnailWidth: "90px",
+    },
+    {
+      original: kirby,
+      thumbnail: kirby,
+      originalTitle: "AI Recipe Recommendation App",
+      //description: "AI Recipe Generator",
       thumbnailHeight: "60px",
       thumbnailWidth: "80px",
     },
@@ -44,6 +52,14 @@ export default function Home() {
       thumbnail: cocoa,
       originalTitle: "Agricultural IoT",
       description: "Agricultural IoT",
+      thumbnailHeight: "60px",
+      thumbnailWidth: "80px",
+    },
+    {
+      original: iomt,
+      thumbnail: iomt,
+      originalTitle: "IoMT Anomaly Detection",
+      // description: "Healthcare IoT Anomaly Detection",
       thumbnailHeight: "60px",
       thumbnailWidth: "80px",
     },
@@ -57,28 +73,12 @@ export default function Home() {
     },
 
     {
-      original: kirby,
-      thumbnail: kirby,
-      originalTitle: "AI Recipe Recommendation App",
-      //description: "AI Recipe Generator",
-      thumbnailHeight: "60px",
-      thumbnailWidth: "80px",
-    },
-    {
       original: lung,
       thumbnail: lung,
       originalTitle: "Lung Cancer Detection",
       description: "Lung Cancer Detection",
       thumbnailHeight: "60px",
       thumbnailWidth: "80px",
-    },
-    {
-      original: music,
-      thumbnail: music,
-      description: "Spotify Clone",
-      originalTitle: "Spotify Clone",
-      thumbnailHeight: "60px",
-      thumbnailWidth: "90px",
     },
 
     {

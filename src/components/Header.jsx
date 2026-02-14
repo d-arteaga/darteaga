@@ -10,7 +10,7 @@ export default function Header() {
       <Navbar expand="lg" bg="dark" data-bs-theme="dark" fixed="top">
         <Container>
           <Navbar.Brand as={Link} to="/">
-            darteaga.me
+            darteaga.dev
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

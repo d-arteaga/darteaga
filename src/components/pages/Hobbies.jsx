@@ -167,11 +167,11 @@ export default function Hobbies() {
                 Using tools like Ableton&nbsp;Live,
                 Adobe&nbsp;Premiere&nbsp;Pro, Adobe After Effects, and Photopea,
                 I streamline video and audio workflows to deliver high-quality,
-                engaging content. By analyzing audience and performance data
-                from YouTube&nbsp;Studio and TikTok&nbsp;Analytics, I identify
-                high-retention patterns, test new approaches to content types,
-                thumbnails, and posting schedules, and continuously refine
-                content strategy—driving over 25&nbsp;million views.
+                engaging content.
+                <br />
+                By analyzing audience and performance data from
+                YouTube&nbsp;Studio and TikTok&nbsp;Analytics, I design and run
+                A/B tests and assist clients in growing their brand.
                 {/* <br /> I personally oversee and manage two separate content
                 businesses, handling everything from editing and post-production
                 to branding and audience engagement strategies. Beyond editing,
@@ -216,12 +216,11 @@ export default function Hobbies() {
               <div className="p-2">
                 <p className="hobby-text">
                   Outside of music and video editing, I enjoy staying active and
-                  exploring the outdoors. Whether it’s hiking through National
-                  Parks like <i>Yosemite</i> and <i>Sequoia</i>, relaxing at the
-                  beach, or discovering new botanical gardens, I love immersing
-                  myself in nature whenever I can. I’m also passionate about
-                  fitness and working out, seeing it as both a challenge and a
-                  way to stay balanced and healthy. <br></br>
+                  exploring the world. Whether it’s camping in Yosemite National
+                  Park or city-hopping in Tokyo, I love immersing myself in new
+                  experiences. I’m also passionate about working out, seeing it
+                  as both a challenge and a way to stay balanced and healthy.{" "}
+                  <br></br>
                   Another fun fact about me—I speak three languages: English,
                   Spanish, and Japanese! Learning new languages has given me a
                   deeper appreciation for different cultures and perspectives,
