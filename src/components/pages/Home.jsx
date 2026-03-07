@@ -81,15 +81,15 @@ export default function Home() {
       thumbnailWidth: "80px",
     },
 
-    {
-      original: nature,
-      thumbnail: nature,
-      description: "Descanso Gardens,CA",
-      originalTitle: "Descanso Gardens,CA",
-      originalHeight: "550px",
-      thumbnailHeight: "60px",
-      thumbnailWidth: "80px",
-    },
+    // {
+    //   original: nature,
+    //   thumbnail: nature,
+    //   description: "Descanso Gardens,CA",
+    //   originalTitle: "Descanso Gardens,CA",
+    //   originalHeight: "550px",
+    //   thumbnailHeight: "60px",
+    //   thumbnailWidth: "80px",
+    // },
     {
       original: tyler,
       thumbnail: tyler,
