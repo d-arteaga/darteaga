@@ -147,7 +147,7 @@ export default function Home() {
         </div>
         <Container>
           <h3 className="tagline">
-            Developer &nbsp;•&nbsp; Data Analyst &nbsp;•&nbsp; Musician
+            Engineer &nbsp;•&nbsp; Data Science &nbsp;•&nbsp; Musician
           </h3>
         </Container>
         <Container>

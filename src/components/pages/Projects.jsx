@@ -6,6 +6,7 @@ import chef from "../assets/chef_app.png";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import tyler from "../assets/drum_sim.png";
+import yoda from "../assets/yoda_nlp.png";
 import spotify from "../assets/ongaku.png";
 import health from "../assets/healthcare.png";
 import assembly from "../assets/endgame.png";
@@ -24,18 +25,24 @@ export default function Projects() {
         <Row lg={3} md={3} s={2} xs={1}>
           <Col>
             <Card>
-              <Card.Img variant="top" src={health} />
+              <Card.Img as="img" loading="lazy" variant="top" src={yoda} />
               <Card.Body>
-                <Card.Title>Healthcare IoT Device Anomaly Detection</Card.Title>
+                {/* <Card.Title>Drum Kit Web Simulator</Card.Title> */}
+                <Card.Title>Yoda NLP Model</Card.Title>
                 <Card.Text>
-                  Developed an end-to-end pipeline to detect anomalies in
-                  wearable health data using Isolation Forest. Extracted 20+
-                  features from biosignals and gained hands-on experience with
-                  ML models and result analysis.
+                  {/* An interactive e-drum simulator that allows users to play a
+                  virtual drum kit using their computer keyboard. Features
+                  customizable drum sounds and samples from various albums by
+                  Tyler, The Creator. */}
+                  Developed a Yoda chatbot by combining Retrieval-Augmented
+                  Generation (RAG) with TF-IDF and cosine similarity retrieval.
+                  Fine-tuned a pretrained language model using LoRA to
+                  efficiently adapt responses while minimizing computational
+                  costs.
                 </Card.Text>
                 <Button
                   variant="primary"
-                  href="https://github.com/d-arteaga/healthcare-anomaly"
+                  href="https://github.com/d-arteaga/chatbot"
                   target="_blank"
                 >
                   &lt;/&gt; Python
@@ -70,18 +77,18 @@ export default function Projects() {
           </Col>
           <Col>
             <Card>
-              <Card.Img as="img" loading="lazy" variant="top" src={lung} />
+              <Card.Img variant="top" src={health} />
               <Card.Body>
-                <Card.Title>Lung Cancer Detection</Card.Title>
+                <Card.Title>Healthcare IoT Device Anomaly Detection</Card.Title>
                 <Card.Text>
-                  Trained a CNN model analyzing radiologist annotations and
-                  using computer vision techniques on over 10,000 CT scan DICOM
-                  images, enhancing my proficiency with Python libraries like
-                  NumPy, TensorFlow, OpenCV, and Matplotlib.
+                  Developed an end-to-end pipeline to detect anomalies in
+                  wearable health data using Isolation Forest. Extracted 20+
+                  features from biosignals and gained hands-on experience with
+                  ML models and result analysis.
                 </Card.Text>
                 <Button
                   variant="primary"
-                  href="https://github.com/d-arteaga/lung-cancer-detection"
+                  href="https://github.com/d-arteaga/healthcare-anomaly"
                   target="_blank"
                 >
                   &lt;/&gt; Python
@@ -156,21 +163,21 @@ export default function Projects() {
           </Col>
           <Col md={4}>
             <Card>
-              <Card.Img as="img" loading="lazy" variant="top" src={tyler} />
+              <Card.Img as="img" loading="lazy" variant="top" src={lung} />
               <Card.Body>
-                <Card.Title>Drum Kit Web Simulator</Card.Title>
+                <Card.Title>Lung Cancer Detection</Card.Title>
                 <Card.Text>
-                  An interactive e-drum simulator that allows users to play a
-                  virtual drum kit using their computer keyboard. Features
-                  customizable drum sounds and samples from various albums by
-                  Tyler, The Creator.
+                  Trained a CNN model analyzing radiologist annotations and
+                  using computer vision techniques on over 10,000 CT scan DICOM
+                  images, enhancing my proficiency with Python libraries like
+                  NumPy, TensorFlow, OpenCV, and Matplotlib.
                 </Card.Text>
                 <Button
                   variant="primary"
-                  href="https://github.com/diego-arteaga0/Tyler--the-Creator-e-Drum-Kit"
+                  href="https://github.com/d-arteaga/lung-cancer-detection"
                   target="_blank"
                 >
-                  &lt;/&gt; JavaScript
+                  &lt;/&gt; Python
                 </Button>
               </Card.Body>
             </Card>
