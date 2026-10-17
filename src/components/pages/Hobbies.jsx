@@ -94,36 +94,33 @@ export default function Hobbies() {
                 <strong>Music has always been a huge part of my life.</strong>
                 <br></br>I play drums, guitar, bass, and a variety of percussion
                 instruments, and I spent several years working as a studio
-                musician. During that time, I performed everywhere from Ventura
-                Harbor and the Pasadena Civic Center to a boat parade in Oxnard.
-                I even had the unique experience of performing at NAMM 2020 in
-                Anaheim, CA, opening for Tower&nbsp;of&nbsp;Power. I was also
-                the studio drummer of the jazz ensemble
-                The&nbsp;Jazz&nbsp;Lawyers, contributing to the writing and
-                recording of their debut album, <i>Identity&nbsp;Theft</i>,
-                which is currently available for streaming on{" "}
+                musician. During that time, I performed everywhere from the
+                Pasadena Civic Center to a boat parade in Oxnard. I even had the
+                unique experience of performing at NAMM 2020 in Anaheim, CA,
+                opening for Tower&nbsp;of&nbsp;Power. I also played drums for an
+                LA-Based jazz ensemble,{" "}
                 <a
-                  href="https://open.spotify.com/album/2Js0jE3E7Myam7T9Ocqrd6?si=4i8nkZbrQyyP8o--n5RcdQ"
+                  href="https://open.spotify.com/artist/5eF758ITVNIEF9IfZEXLAF?si=GkO3UA7wRfa90_bzmkchOw"
                   target="_blank"
-                  title="Spotify"
+                  title="Jazz Lawyers page on Spotify"
                   aria-label="Spotify link to Identity Fraud album"
                 >
-                  Spotify
-                </a>{" "}
-                and{" "}
-                <a
-                  href="https://music.apple.com/us/album/identity-fraud/1727888226"
-                  target="_blank"
-                  title="Apple Music"
-                  aria-label="Apple Music link to Identity Fraud album"
-                >
-                  Apple&nbsp;Music
+                  The Jazz Lawyers
                 </a>
-                .<br></br>
-                Now, I play drums and guitar in my spare time and enjoy
-                recording and mixing covers and tutorials to share online. Music
-                continues to be a creative outlet for me, blending performance
-                with production.
+                , and a SoCal-based soul rock band,{" "}
+                <a
+                  href="https://open.spotify.com/artist/6KVM9BNFyHeHVosTyDg44k?si=Jt74-6tSSFiCxpGll9iivQ"
+                  target="_blank"
+                  title="The Soul Riders page on Spotify"
+                  aria-label="Spotify link to The Soul Riders page"
+                >
+                  The Soul Riders
+                </a>
+                , contributing to the writing and recording for both of their
+                debut albums. Now, I play drums and guitar in my spare time and
+                enjoy recording and mixing covers and tutorials to share online.
+                Music continues to be a creative outlet for me, blending
+                performance with production.
                 {/* // During that time, I performed everywhere from local clubs in 
                 // Ventura and the Pasadena Civic Center to a boat parade in Oxnard. */}
               </p>
